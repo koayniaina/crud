@@ -1,0 +1,27 @@
+.main {
+  position: fixed;
+  z-index: 1000;
+  background-color: rgb(3, 13, 68);
+  min-height: 100vh;
+}
+
+.logo {
+  font-size: 1.7rem;
+  padding: 1rem;
+  color: rgb(216, 216, 216);
+  border-bottom: 1px solid rgb(16, 34, 68);
+}
+
+.children {
+  position: absolute;
+  left: 4rem;
+  width: calc(100% - 4rem);
+  min-height: 100vh;
+}
+
+.sidbar a{
+  z-index: 1000;
+  font-size: 1.4rem;
+  color: rgba(241, 241, 241, 0.904);
+  padding: 1rem;
+}
